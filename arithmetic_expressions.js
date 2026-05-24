@@ -26,3 +26,10 @@ console.log(students);
 
 let result = 1 + 2 * (3+4) -5;
 console.log(result);
+
+
+//Summary of this code snippet:
+//Arithmetic expressions are combinations of operands and operators that can be evaluated to a value
+//Operator follow BODMAS rule
+//Operator precedence can be changed using parentheses\
+//You can do stuff like student +=5 only if the variable ios already declared, otherwise error appears
