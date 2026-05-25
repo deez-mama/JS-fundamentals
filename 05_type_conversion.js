@@ -18,7 +18,7 @@ let z;
 
 x=Number("3.14");
 y=String(3.14);
-z=Booleaan("pizza"); //Gives false for emptyi.e "", anything else true)
+z=Boolean("pizza"); //Gives false for emptyi.e "", anything else true)
 
 console.log(x, typeof x);
 console.log(y, typeof y);
