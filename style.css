@@ -1,1 +1,12 @@
-    
+#CounterLabel {
+    display: block;
+    text-align: center;
+    font-size: 50px;
+}
+
+#decreaseButton, #resetButton, #increaseButton {
+    justify-content: center;
+    margin: 10px auto;
+    padding: 10px 20px;
+    font-size: 20px;
+}
