@@ -8,3 +8,11 @@ let num1=5;
 let num2=10;
 let sum=add(5,10);
 console.log(sum);
+
+/*
+    A thing I learnt:
+    When I pass num1 and num2 as a,b a will copy num1 into a separate memory location and same with b and num2
+    This is the property of primitive data types. It follows pass by value method.
+    When I pass an arraty or an object however, it follows pass by reference.
+    Meaning changing the passed parameter changes the original.
+*/
