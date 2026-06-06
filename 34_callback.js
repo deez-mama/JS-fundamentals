@@ -1,4 +1,4 @@
-//callback -> a function passed an argument to another function
+//callback -> a function passed as an argument to another function
 // It tells the function to call the next function (which is passed as argument) after we call the current function
 
 sum(2,3,displayConsole); //don't add () cause that would invoke the function. 
