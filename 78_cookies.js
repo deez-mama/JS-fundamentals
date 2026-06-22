@@ -6,8 +6,8 @@
 
 console.log(navigator.cookieEnabled); //to check is cookie is enabled or not
 
-document.cookie = "firstName=SpongeBpb; expires=Sun, 1 January 2030 12:00:00 UTC; path=/"; 
-document.cookie = "lastName=SpongeBpb; expires=Sun, 1 January 2030 12:00:00 UTC; path=/";
+document.cookie = "firstName=SpongeBob; expires=Sun, 1 January 2030 12:00:00 UTC; path=/"; 
+document.cookie = "lastName=SquarePants; expires=Sun, 1 January 2030 12:00:00 UTC; path=/";
 
 console.log(document.cookie);
 
@@ -15,6 +15,8 @@ setCookie("email", "sampleEmail@gmail.com", 365);
 deleteCookie("lastName");
 
 
+console.log(getCookie("firstName"));
+console.log(getCookie("email"));
 console.log(getCookie("firstName"));
 
 
@@ -26,7 +28,7 @@ function setCookie(name, value, daystoLive){ //days to live is in days
 }
 
 function deleteCookie(name){
-    setCookie(name, null, null);
+    setCookie(name, "", -1);
 }
 
 function getCookie(name){
